@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 # Introduction
-This is the journey of creating my personal portfolio website: My personal portfolio at (https://sanchi1004.github.io/WebPDA/). The goal was to build a simple yet professional site that highlights my skills, education, and contact details in an organized and visually appealing way.
+This is the journey of creating my personal portfolio website: My personal portfolio at [https://sanchi1004.github.io/Personal-Portfolio/](https://sanchi1004.github.io/Personal-Portfolio/)). The goal was to build a simple yet professional site that highlights my skills, education, and contact details in an organized and visually appealing way.
 It was primarily designed to serve for my Web Programming Course Digital Assignment.
 
 ---
