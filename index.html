@@ -3,92 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanchi Khandelwal | Portfolio</title>
+    <title>Sanchi Khandelwal – Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Hero / Header -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Sanchi Khandelwal</h1>
-            <p class="hero-sub">Computer Science Undergraduate — Data Science & Software</p>
-            <div class="hero-links">
-                <a href="mailto:sanchikhandelwal10@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/sanchi-khandelwal" target="_blank">LinkedIn</a>
-                <a href="https://github.com/sanchi1004" target="_blank">GitHub</a>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Tools</a>
+            <a href="#thoughts">Thoughts</a>
+        </div>
+    </nav>
+
+    <!-- HERO / INTRO -->
+    <section id="home" class="hero">
+        <h1>Sanchi Khandelwal</h1>
+        <p class="subtitle">
+            Computer Science Undergraduate | Data Science & Software Development
+        </p>
+
+        <div class="stats">
+            <div class="stat">
+                <span class="num">+04</span>
+                <span class="label">Projects Completed</span>
+            </div>
+            <div class="stat">
+                <span class="num">+02</span>
+                <span class="label">Internships</span>
+            </div>
+            <div class="stat">
+                <span class="num">2026</span>
+                <span class="label">Expected Graduation</span>
             </div>
         </div>
-    </header>
+    </section>
 
-    <main class="main-content">
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>Recent Projects</h2>
 
-        <!-- About -->
-        <section class="section about">
-            <h2>Professional Summary</h2>
+        <div class="card">
+            <h3>AI-Based Cyber Threat Detection</h3>
             <p>
-                Computer Science undergraduate specializing in Data Science with strong foundations in
-                software development, web technologies, and data-driven problem solving.
-                Actively seeking software engineering and data-focused roles.
+                ML-driven intrusion detection with smart contract logging on Ethereum.
             </p>
-        </section>
+        </div>
 
-        <!-- Experience -->
-        <section class="section">
-            <h2>Experience</h2>
+        <div class="card">
+            <h3>Business Analyst Dashboard</h3>
+            <p>
+                Full-stack analytics dashboard using React, Node, and AI integrations.
+            </p>
+        </div>
 
-            <div class="card">
-                <h3>Senior Core Committee Member — IEEE Computer Society, VIT</h3>
-                <p class="muted">May 2024 – Present</p>
-                <ul>
-                    <li>Led planning & execution of ARCS’24 with 500+ participants</li>
-                    <li>Coordinated logistics, scheduling, and registrations</li>
-                </ul>
-            </div>
+    </section>
 
-            <div class="card">
-                <h3>Summer Intern — Ernst & Young (EY), New Delhi</h3>
-                <p class="muted">May 2025 – Jun 2025</p>
-                <ul>
-                    <li>Researched AI & data science applications in corporate finance</li>
-                    <li>Built structured reports for executive insights</li>
-                </ul>
-            </div>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
 
-        </section>
+        <div class="card">
+            <h3>Summer Intern – Ernst & Young (EY)</h3>
+            <p>Researched AI & data science use cases in corporate finance.</p>
+        </div>
 
-        <!-- Projects -->
-        <section class="section">
-            <h2>Projects</h2>
+        <div class="card">
+            <h3>Senior Committee – IEEE Computer Society</h3>
+            <p>Led events and logistics for large campus tech events.</p>
+        </div>
+    </section>
 
-            <div class="card">
-                <h3>AI Cyber Threat Detection & Blockchain Logging</h3>
-                <ul>
-                    <li>ML-based intrusion detection (Python)</li>
-                    <li>Smart contracts (Solidity) for immutable logging</li>
-                </ul>
-            </div>
+    <!-- TOOLS / SKILLS -->
+    <section id="skills" class="section">
+        <h2>Tools & Skills</h2>
+        <div class="skills">
+            <span>C</span><span>C++</span><span>Python</span><span>JavaScript</span>
+            <span>React</span><span>Node.js</span><span>Solidity</span><span>SQL</span>
+        </div>
+    </section>
 
-            <div class="card">
-                <h3>Business Analyst Dashboard</h3>
-                <ul>
-                    <li>React + Chart.js dashboard with REST backend</li>
-                    <li>AI insight generation via Google Gemini API</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-                <span>C</span><span>C++</span><span>Python</span><span>Java</span><span>JavaScript</span>
-                <span>React</span><span>Node.js</span><span>Express</span><span>Solidity</span>
-                <span>SQL</span><span>Git</span><span>AWS</span>
-            </div>
-        </section>
-
-    </main>
+    <!-- THOUGHTS -->
+    <section id="thoughts" class="section">
+        <h2>Thoughts</h2>
+        <p>
+            I enjoy solving meaningful problems, building intuitive software, and learning continuously.
+        </p>
+    </section>
 
 </body>
 </html>

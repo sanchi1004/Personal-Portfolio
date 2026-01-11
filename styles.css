@@ -1,4 +1,4 @@
-/* Base */
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -12,88 +12,112 @@ body {
     line-height: 1.6;
 }
 
-/* Hero */
+/* NAVIGATION */
+.nav {
+    width: 100%;
+    padding: 16px 0;
+    background: #11151f;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.nav-container a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.nav-container a:hover {
+    color: #60a5fa;
+}
+
+/* HERO */
 .hero {
     text-align: center;
-    padding: 80px 20px;
-    background: #11151f;
+    padding: 100px 20px;
 }
 
 .hero h1 {
     font-size: 3rem;
+    margin-bottom: 12px;
     font-weight: 700;
-    margin-bottom: 8px;
 }
 
-.hero-sub {
-    font-size: 1.1rem;
+.subtitle {
+    font-size: 1.15rem;
     color: #9ca3af;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
-.hero-links a {
-    margin: 4px 12px;
-    color: #93c5fd;
-    text-decoration: none;
-    font-weight: 500;
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
-.hero-links a:hover {
+
+.stat .num {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 700;
     color: #60a5fa;
 }
 
-/* Main Container */
-.main-content {
-    width: 90%;
-    max-width: 850px;
-    margin: 40px auto;
+.stat .label {
+    font-size: 0.9rem;
+    color: #9ca3af;
 }
 
-/* Section Titles */
+/* SECTION */
 .section {
-    margin-bottom: 40px;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
 }
+
 .section h2 {
-    font-size: 1.6rem;
-    margin-bottom: 18px;
-    border-bottom: 2px solid #2e2e37;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2e2e37;
     padding-bottom: 6px;
     color: #cbd5e1;
 }
 
-/* Cards */
+/* CARDS */
 .card {
     background: #1a1f29;
     padding: 18px 22px;
     border-radius: 8px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
+
 .card h3 {
     font-size: 1.1rem;
     margin-bottom: 6px;
-}
-.muted {
-    color: #7f8593;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-}
-ul {
-    padding-left: 18px;
-    margin-top: 8px;
-}
-li {
-    margin-bottom: 6px;
+    color: #f1f5f9;
 }
 
-/* Skills */
+/* SKILLS */
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
 }
+
 .skills span {
     background: #2e3138;
     padding: 8px 14px;
     border-radius: 20px;
-    font-size: 0.87rem;
+    font-size: 0.85rem;
     color: #d1d5db;
 }
